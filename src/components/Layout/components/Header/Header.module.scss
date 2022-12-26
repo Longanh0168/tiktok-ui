@@ -19,9 +19,12 @@
     justify-content: space-between;
 }
 
+.search,
+.search-result {
+    width: 361px;
+}
 .search {
     position: relative;
-    width: 361px;
     height: var(--search-height);
     padding-left: 16px;
     display: flex;
@@ -57,6 +60,13 @@
     }
 }
 
+.search-title {
+    padding: 5px 12px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgba(22, 24, 35, 0.5);
+}
+
 .clear, 
 .loading {
     position: absolute;
@@ -84,3 +94,11 @@
     }
 
 }
+
+.more-btn {
+    font-size: 2rem;
+    margin-left: 28px;
+    padding: 4px 8px;
+    background-color: transparent;
+}
+
